@@ -47,9 +47,9 @@ const bitmap = gen.generateCode128('1234567890', {
 // bitmap: { width, height, data: ArrayBuffer }
 
 <NitroBarcodeImage
-  value={loyaltyId}
+  value={value}
   options={{ moduleWidth: 2, height: 60, lineColor: 0xff000000 }}
-/>
+/>;
 ```
 
 ## Regenerate Nitro bindings
