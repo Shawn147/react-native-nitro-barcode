@@ -38,6 +38,15 @@ def getExtOrIntegerDefault(name) {
 android {
   namespace "com.margelo.nitro.barcode"
 
+  sourceSets {
+    main {
+      java {
+        srcDir "${project.projectDir}/../cpp"
+        include "NitroBarcodePackage.java"
+      }
+    }
+  }
+
   ndkVersion getExtOrDefault("ndkVersion")
   compileSdkVersion getExtOrIntegerDefault("compileSdkVersion")
 

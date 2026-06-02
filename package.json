@@ -1,6 +1,6 @@
 {
   "name": "react-native-nitro-barcode",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "High-performance CODE128 barcode generator via Nitro C++",
   "license": "MIT",
   "author": "Danube",
@@ -50,7 +50,11 @@
     "react-native-nitro-modules": "*"
   },
   "peerDependenciesMeta": {
-    "@shopify/react-native-skia": { "optional": false },
-    "react-native-nitro-modules": { "optional": false }
+    "@shopify/react-native-skia": {
+      "optional": false
+    },
+    "react-native-nitro-modules": {
+      "optional": false
+    }
   }
 }
