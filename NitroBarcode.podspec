@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
     "ios/**/*.{m,mm,swift}",
     "cpp/**/*.{hpp,cpp}",
   ]
+  s.exclude_files = "cpp/NitroBarcode.cpp"
 
   s.compiler_flags = "-x objective-c++"
 
